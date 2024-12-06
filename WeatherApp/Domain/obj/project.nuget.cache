@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "iD4FYMt5aiM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\adema\\source\\repos\\WeatherApp\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adema\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

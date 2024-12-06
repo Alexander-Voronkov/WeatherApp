@@ -1,0 +1,68 @@
+[
+  {
+    "ContainingType": "WeatherAPI.Modules.WeatherModule\u002B\u003C\u003Ec",
+    "Method": "\u003CAddRoutes\u003Eb__2_2",
+    "RelativePath": "api/v1/history",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Application.Weather.Queries.GetSearchHistory.SearchHistoryResult",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WeatherAPI.Modules.WeatherModule\u002B\u003C\u003Ec",
+    "Method": "\u003CAddRoutes\u003Eb__2_0",
+    "RelativePath": "api/v1/register",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Application.Users.Commands.Register.RegisterCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MediatR.Unit",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WeatherAPI.Modules.WeatherModule\u002B\u003C\u003Ec",
+    "Method": "\u003CAddRoutes\u003Eb__2_1",
+    "RelativePath": "api/v1/search/{city}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "city",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Application.Weather.Queries.GetWeatherByCity.CityWeatherDto",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

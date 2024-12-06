@@ -1,0 +1,24 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Weather API",
+    "version": "1"
+  },
+  "paths": { },
+  "components": {
+    "securitySchemes": {
+      "oauth2": {
+        "type": "oauth2",
+        "flows": {
+          "password": {
+            "authorizationUrl": "https://localhost:8888/connect/authorize",
+            "tokenUrl": "https://localhost:8888/connect/token",
+            "scopes": {
+              "doAll": "doAll"
+            }
+          }
+        }
+      }
+    }
+  }
+}
